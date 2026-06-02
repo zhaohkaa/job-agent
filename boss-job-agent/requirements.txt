@@ -1,0 +1,28 @@
+# ============================================================
+# Boss 直聘求职自动化 Agent — 依赖清单
+# ============================================================
+# 一键安装: pip install -r requirements.txt
+# ============================================================
+
+# --- 核心框架 ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+
+# --- 浏览器自动化 ---
+playwright>=1.48.0
+
+# --- AI / LLM ---
+# 通义千问 (DashScope)
+dashscope>=1.20.0
+
+# --- 定时任务 ---
+schedule>=1.2.0
+
+# --- HTTP 请求 ---
+requests>=2.32.0
+
+# --- 数据处理 ---
+# (Python 标准库: json, re, hashlib, sqlite3, asyncio)
